@@ -57,7 +57,7 @@ tasks:
   new:
     cmds:
       - |
-        git clone https://github.com/better-rs/tauri-vue-template.git app --single-branch -b "dev/tauri-i18n"
+        git clone https://github.com/better-rs/tauri-vue-admin4.git app --single-branch -b "dev/tauri-i18n"
         cd app;
         rm -rf .git;
         cd ..;
