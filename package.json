@@ -1,5 +1,5 @@
 {
-  "name": "vue-pure-admin",
+  "name": "tauri-vue-pure-admin",
   "version": "3.9.7",
   "private": true,
   "scripts": {
@@ -21,7 +21,10 @@
     "lint:pretty": "pretty-quick --staged",
     "lint": "pnpm lint:eslint && pnpm lint:prettier && pnpm lint:stylelint",
     "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "tauri": "tauri init",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "browserslist": [
     "> 1%",
